@@ -26,4 +26,17 @@ struct PersistenceController {
             }
         })
     }
+    
+    func save() throws {
+        let context = container.viewContext
+        if context.hasChanges {
+            try context.save()
+        }
+    }
+    
+    func delete(_ object: NSManagedObject) throws {
+        let context = container.viewContext
+        context.delete(object)
+        try save()
+    }
 }
