@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct CoreDataSwiftUI4FunApp: App {
+    let persistenceController = PersistenceController.shared
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
         }
     }
 }
