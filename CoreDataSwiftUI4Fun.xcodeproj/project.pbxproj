@@ -15,6 +15,8 @@
 		B161064E28C13971005B1F2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B161063B28C13971005B1F2B /* Assets.xcassets */; };
 		B161065928C13B40005B1F2B /* CoreDataSwiftUI4Fun.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B161065728C13B40005B1F2B /* CoreDataSwiftUI4Fun.xcdatamodeld */; };
 		B161065A28C13B40005B1F2B /* CoreDataSwiftUI4Fun.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B161065728C13B40005B1F2B /* CoreDataSwiftUI4Fun.xcdatamodeld */; };
+		B161065C28C13C2B005B1F2B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161065B28C13C2B005B1F2B /* Persistence.swift */; };
+		B161065D28C13C2B005B1F2B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = B161065B28C13C2B005B1F2B /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,7 @@
 		B161064628C13971005B1F2B /* CoreDataSwiftUI4Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataSwiftUI4Fun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B161064828C13971005B1F2B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		B161065828C13B40005B1F2B /* CoreDataSwiftUI4Fun.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreDataSwiftUI4Fun.xcdatamodel; sourceTree = "<group>"; };
+		B161065B28C13C2B005B1F2B /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,7 @@
 				B161063928C1396F005B1F2B /* CoreDataSwiftUI4FunApp.swift */,
 				B161063A28C1396F005B1F2B /* ContentView.swift */,
 				B161065728C13B40005B1F2B /* CoreDataSwiftUI4Fun.xcdatamodeld */,
+				B161065B28C13C2B005B1F2B /* Persistence.swift */,
 				B161063B28C13971005B1F2B /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -181,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B161064B28C13971005B1F2B /* ContentView.swift in Sources */,
+				B161065C28C13C2B005B1F2B /* Persistence.swift in Sources */,
 				B161064928C13971005B1F2B /* CoreDataSwiftUI4FunApp.swift in Sources */,
 				B161065928C13B40005B1F2B /* CoreDataSwiftUI4Fun.xcdatamodeld in Sources */,
 			);
@@ -191,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B161064C28C13971005B1F2B /* ContentView.swift in Sources */,
+				B161065D28C13C2B005B1F2B /* Persistence.swift in Sources */,
 				B161064A28C13971005B1F2B /* CoreDataSwiftUI4FunApp.swift in Sources */,
 				B161065A28C13B40005B1F2B /* CoreDataSwiftUI4Fun.xcdatamodeld in Sources */,
 			);
